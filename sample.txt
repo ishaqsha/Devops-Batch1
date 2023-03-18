@@ -1,0 +1,19 @@
+#We have created a public repo
+#We have clone into our local workspace
+  git clone <url>
+# We have added a empty file
+  touch smaple.txt
+  git add sample.txt
+  git commit m "added a file"
+  git push origin <url>
+
+
+# We have created a branch
+git checkout b feroz
+#We have added into remote
+git remote add feroz <url>
+git push -u origin master
+#modify the sample.txt file
+git add sample.txt
+git commit m "added a cahnegs in sample file"
+git push origin feroz
