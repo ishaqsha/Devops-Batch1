@@ -17,3 +17,14 @@ git push -u origin master
 git add sample.txt
 git commit m "added a cahnegs in sample file"
 git push origin feroz
+
+#how to create branch
+git branch <branchname>
+git remote add <branchname > <url>
+git push -u origin master
+
+#differnece between private and public repository.
+git pull 
+#git push without pulling a changes from remote what it will be thorwing an erorr
+#git pull
+#git revert 
